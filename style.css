@@ -106,13 +106,12 @@ body{
 /*section 1
 --------------------
 */
-
 .ajax-section {
   margin: 70px 0 20px;
 }
-ajax-section .cities {
+.ajax-section .cities {
   display: grid;
-  grid-gap: 32px 20px;
+  grid-gap: 32px 50px;
   grid-template-columns: repeat(4, 1fr);
 }
 .ajax-section .city {
@@ -137,7 +136,7 @@ ajax-section .cities {
 }
 
 .ajax-section figcaption {
-  margin-top: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
